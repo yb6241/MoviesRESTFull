@@ -2,7 +2,7 @@
 
 ## Tentang Project
 ### Deskripsi
-*Adalah RESTFull API yang dibuat untuk memenuhi tes di PT Xsis Mitra Utama*
+*Adalah RESTFull API yang dibuat untuk memenuhi syarat Reqruitment di PT Xsis Mitra Utama*
 
 ### Framework, Library dan Database
 *MoviesRESTFull dibangun dengan ASP.NET Core Web API dengan Framework .NET 6.0 dan MySQL*
@@ -29,6 +29,18 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Dapatkan source dengan meng-clone pada link berikut https://github.com/yb6241/MoviesRESTFull.git
 * Buka SQL editor anda
 * kemudian restore database db_xsis.sql dengan menggunakan nama yang sama `db_xsis`
+* atau anda bisa membuat table dengan nama movie dengan konfigurasi sebagai berikut :
+* *Table*
+**Movie**
+| Columns     | Type        | Length | Primary |
+| ----------- | ----------- | ------ | ------- |
+| id          | int         | 11     | YES     |
+| title       | varchar     | 50     |         |
+| description | varchar     | 1000   |         |
+| rating      | float       |        |         |
+| image       | varchar     | 50     |         |
+| created_at  | datetime    |        |         |
+| updated_at  | datetime    |        |         |
 * Untuk merubah koneksi database dapat dikonfigurasi pada file `appsettings.json`
 ```json
 "ConnectionStrings": {
@@ -36,17 +48,24 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
   }
 ```
 * Jalankan aplikasi dengan menekan `F5`
+* Aplikasi akan otomatis membuka Swagger editor
+* Anda juga bisa menggunakan aplikasi pihak ketiga seperti Postman
 
 # Contoh Penggunaan
 ## Get
+`api/Movie/GetMovies`
 
 ## Get by ID
+`api/Movie/GetMovieById`
 
 ## Post
+`api/Movie/InsertMovie`
 
 ## Put
+`api/Movie/UpdateMovie`
 
 ## Delete
+`api/Movie/DeleteMovie/{Id}`
 
 # Cara Berkontribusi
 Untuk bisa berkontribusi dalam mengembangkan aplikasi ini, silahkan kontak developer terlebih dahulu.
@@ -56,5 +75,5 @@ Lisensi yang digunakan GNU GENERAL PUBLIC LICENSE Version 3
 Anda bisa melihatnya pada file `LICENSE.txt`
 
 # Kontak
-+62 896 3696 7361
-yanbaktra@gmail.com
+- Phone : +62 896 3696 7361
+- Email : yanbaktra@gmail.com
