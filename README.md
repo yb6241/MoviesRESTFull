@@ -2,20 +2,19 @@
 
 ## Tentang Project
 ### Deskripsi
-*Adalah sebuah RESTFull API yang dibuat untuk memenuhi tes di PT Xsis Mitra Utama*
+*Adalah RESTFull API yang dibuat untuk memenuhi tes di PT Xsis Mitra Utama*
 
 ### Framework, Library dan Database
-MoviesRESTFull dibuat dengan menggunakan ASP.NET Core Web API
-Framework yang digunakan .NET 6.0
+*MoviesRESTFull dibangun dengan ASP.NET Core Web API dengan Framework .NET 6.0 dan MySQL*
 
-Dengan beberapa library yang digunakan, diantaranya :
+Beberapa library yang digunakan, diantaranya :
 * Microsoft.AspNet.WebApi.Core
 * Microsoft.EntityFrameworkCore.Design
 * Microsoft.EntityFrameworkCore.Tools
 * MySql.EntityFrameworkCore
 * Swashbuckle.AspNetCore
 
-Database menggunakan : MySQL versi 5.7.36
+Versi Database : MySQL versi 5.7.36
 
 # Getting Started
 ## Requirement/Kebutuhan
@@ -25,4 +24,10 @@ Untuk Requierement/Kebutuhan dalam menjalankan REST API ini, diantaranya :
 * SQL Editor seperti PhpMyAdmin, HeidiSQL dan sebagainya.
 
 ## Cara Install
-
+Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
+* Buka Visual Studio anda
+* Dapatkan source dengan meng-clone pada link berikut https://github.com/yb6241/MoviesRESTFull.git
+* Buka SQL editor anda
+* kemudian restore database db_xsis.sql dengan menggunakan nama yang sama `db_xsis`
+* Untuk merubah koneksi database dapat dikonfigurasi pada file `appsettings.json`
+* Jalankan aplikasi dengan menekan `F5`
