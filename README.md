@@ -16,9 +16,7 @@ Beberapa library yang digunakan, diantaranya :
 
 Versi Database : MySQL versi 5.7.36
 
-*Table*
-
-**Movie**
+*Table* : **Movie**
 
 | Columns     | Type        | Length | Primary |
 | ----------- | ----------- | ------ | ------- |
@@ -54,6 +52,7 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Anda juga bisa menggunakan aplikasi pihak ketiga seperti Postman
 
 # Contoh Penggunaan
+
 ## Get
 `api/Movie/GetMovies`
 
