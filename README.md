@@ -15,8 +15,11 @@ Beberapa library yang digunakan, diantaranya :
 * Swashbuckle.AspNetCore
 
 Versi Database : MySQL versi 5.7.36
+
 *Table*
+
 **Movie**
+
 | Columns     | Type        | Length | Primary |
 | ----------- | ----------- | ------ | ------- |
 | id          | int         | 11     | YES     |
