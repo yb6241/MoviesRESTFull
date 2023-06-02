@@ -28,7 +28,7 @@ Versi Database : MySQL versi 5.7.36
 | created_at  | datetime    |        |         |
 | updated_at  | datetime    |        |         |
 
-# Getting Started
+# Memulai
 ## Requirement/Kebutuhan
 Untuk Requierement/Kebutuhan dalam menjalankan REST API ini, diantaranya :
 * Visual Studio 2022.
@@ -38,7 +38,8 @@ Untuk Requierement/Kebutuhan dalam menjalankan REST API ini, diantaranya :
 ## Cara Install
 Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Buka Visual Studio anda
-* Clone the repo `git clone https://github.com/yb6241/MoviesRESTFull.git`
+* Pilih menu Tools => NuGet Package Manager => Package Manager Console
+* Lalu Clone repo dengan mengetik perintah/command `git clone https://github.com/yb6241/MoviesRESTFull.git`
 * Buka SQL editor anda
 * kemudian restore database db_xsis.sql dengan menggunakan nama yang sama `db_xsis`
 * Untuk merubah koneksi database dapat dikonfigurasi pada file `appsettings.json`
@@ -56,22 +57,27 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 
 ## Get
 `api/Movie/GetMovies`
+
 <img src="images/get.jpeg">
 
 ## Get by ID
 `api/Movie/GetMovieById`
+
 <img src="images/getbyid.jpeg">
 
 ## Post
 `api/Movie/InsertMovie`
+
 <img src="images/post.jpeg">
 
 ## Put
 `api/Movie/UpdateMovie`
+
 <img src="images/put.jpeg">
 
 ## Delete
 `api/Movie/DeleteMovie/{Id}`
+
 <img src="images/delete.jpeg">
 
 # Cara Berkontribusi
@@ -79,6 +85,7 @@ Untuk bisa berkontribusi dalam mengembangkan aplikasi ini, silahkan kontak devel
 
 # Lisensi
 Lisensi yang digunakan GNU GENERAL PUBLIC LICENSE Version 3
+
 Anda bisa melihatnya pada file `LICENSE.txt`
 
 # Kontak
