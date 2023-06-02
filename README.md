@@ -30,4 +30,31 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Buka SQL editor anda
 * kemudian restore database db_xsis.sql dengan menggunakan nama yang sama `db_xsis`
 * Untuk merubah koneksi database dapat dikonfigurasi pada file `appsettings.json`
+```json
+"ConnectionStrings": {
+    "DefaultConnection": "server=127.0.0.1;port=3306;user=root;password=;database=db_xsis;"
+  }
+```
 * Jalankan aplikasi dengan menekan `F5`
+
+# Contoh Penggunaan
+## Get
+
+## Get by ID
+
+## Post
+
+## Put
+
+## Delete
+
+# Cara Berkontribusi
+Untuk bisa berkontribusi dalam mengembangkan aplikasi ini, silahkan kontak developer terlebih dahulu.
+
+# Lisensi
+Lisensi yang digunakan GNU GENERAL PUBLIC LICENSE Version 3
+Anda bisa melihatnya pada file `LICENSE.txt`
+
+# Kontak
++62 896 3696 7361
+yanbaktra@gmail.com
