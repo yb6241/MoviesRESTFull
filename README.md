@@ -38,8 +38,7 @@ Untuk Requierement/Kebutuhan dalam menjalankan REST API ini, diantaranya :
 ## Cara Install
 Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Buka Visual Studio anda
-* Clone the repo
-* `git clone https://github.com/yb6241/MoviesRESTFull.git`
+* Clone the repo `git clone https://github.com/yb6241/MoviesRESTFull.git`
 * Buka SQL editor anda
 * kemudian restore database db_xsis.sql dengan menggunakan nama yang sama `db_xsis`
 * Untuk merubah koneksi database dapat dikonfigurasi pada file `appsettings.json`
@@ -53,26 +52,27 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Anda juga bisa menggunakan aplikasi pihak ketiga seperti Postman
 
 # Contoh Penggunaan
-![index movie](https://drive.google.com/file/d/1sU3FFApTOTfWIMqKEuxZZ2glq0LDJ85F/view?usp=sharing)
+<img src="images/index.jpeg">
+
 ## Get
 `api/Movie/GetMovies`
-![get movie](https://drive.google.com/file/d/1-hHf6yx47OoccWX4Zyk2dikSge-el-EA/view?usp=sharing)
+<img src="images/get.jpeg">
 
 ## Get by ID
 `api/Movie/GetMovieById`
-![get movie by id](https://drive.google.com/file/d/1gqZwzhDIDnu8oKWQTUBxepp3tvs7ujBs/view?usp=sharing)
+<img src="images/getbyid.jpeg">
 
 ## Post
 `api/Movie/InsertMovie`
-![post movie](https://drive.google.com/file/d/18nfVCiVwa6mVdAw74b00wEh42AdXJE43/view?usp=sharing)
+<img src="images/post.jpeg">
 
 ## Put
 `api/Movie/UpdateMovie`
-![put movie](https://drive.google.com/file/d/1UGDhbLouGldbi040uLWOymfWeItcNN5I/view?usp=sharing)
+<img src="images/put.jpeg">
 
 ## Delete
 `api/Movie/DeleteMovie/{Id}`
-![delete movie](https://drive.google.com/file/d/1JMKHgHx_0JXfqoyAjBz32-5TQ-UEBd8M/view?usp=sharing)
+<img src="images/delete.jpeg">
 
 # Cara Berkontribusi
 Untuk bisa berkontribusi dalam mengembangkan aplikasi ini, silahkan kontak developer terlebih dahulu.
