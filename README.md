@@ -15,6 +15,17 @@ Beberapa library yang digunakan, diantaranya :
 * Swashbuckle.AspNetCore
 
 Versi Database : MySQL versi 5.7.36
+*Table*
+**Movie**
+| Columns     | Type        | Length | Primary |
+| ----------- | ----------- | ------ | ------- |
+| id          | int         | 11     | YES     |
+| title       | varchar     | 50     |         |
+| description | varchar     | 1000   |         |
+| rating      | float       |        |         |
+| image       | varchar     | 50     |         |
+| created_at  | datetime    |        |         |
+| updated_at  | datetime    |        |         |
 
 # Getting Started
 ## Requirement/Kebutuhan
@@ -29,18 +40,6 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Dapatkan source dengan meng-clone pada link berikut https://github.com/yb6241/MoviesRESTFull.git
 * Buka SQL editor anda
 * kemudian restore database db_xsis.sql dengan menggunakan nama yang sama `db_xsis`
-* atau anda bisa membuat table dengan nama movie dengan konfigurasi sebagai berikut :
-* *Table*
-**Movie**
-| Columns     | Type        | Length | Primary |
-| ----------- | ----------- | ------ | ------- |
-| id          | int         | 11     | YES     |
-| title       | varchar     | 50     |         |
-| description | varchar     | 1000   |         |
-| rating      | float       |        |         |
-| image       | varchar     | 50     |         |
-| created_at  | datetime    |        |         |
-| updated_at  | datetime    |        |         |
 * Untuk merubah koneksi database dapat dikonfigurasi pada file `appsettings.json`
 ```json
 "ConnectionStrings": {
