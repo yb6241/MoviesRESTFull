@@ -1,3 +1,7 @@
+using MySql.EntityFrameworkCore.Extensions;
+using MoviesRESTFull.Entities;
+using Microsoft.EntityFrameworkCore;
+
 namespace MoviesRESTFull
 {
     public class Program
@@ -7,6 +11,9 @@ namespace MoviesRESTFull
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddEntityFrameworkMySQL().AddDbContext<DbXsisContext>(options => {
+                    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+                });
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
