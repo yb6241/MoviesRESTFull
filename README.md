@@ -11,7 +11,7 @@ Ada 2 Project dalam pembuatan RESTFull ini :
 * MovieRESTFull
 * UnitTestMovie
 
-<img src="images/sln_exp.png">
+<img src="image/sln_exp.png">
 
 Beberapa library yang digunakan, diantaranya :
 * Microsoft.AspNet.WebApi.Core
@@ -62,41 +62,41 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 * Anda juga bisa menggunakan aplikasi pihak ketiga seperti Postman
 
 # Contoh Penggunaan
-<img src="images/index.jpeg">
+<img src="image/index.jpeg">
 
 ## Get
 `api/Movie/movielist`
 
-<img src="images/get.jpeg">
+<img src="image/get.jpeg">
 
 ## Get by ID
 `api/Movie/getmoviebyid`
 
-<img src="images/getbyid.jpeg">
+<img src="image/getbyid.jpeg">
 
 ## Post
 `api/Movie/addmovie`
 
-<img src="images/post.jpeg">
+<img src="image/post.jpeg">
 
 ## Put
 `api/Movie/updatemovie`
 
-<img src="images/put.jpeg">
+<img src="image/put.jpeg">
 
 ## Delete
 `api/Movie/deletemovie/{Id}`
 
-<img src="images/delete.jpeg">
+<img src="image/delete.jpeg">
 
 # Cara menggunakan Unit Test dalam Projek ini
 * Buka Test Explorer
 
-<img src="images/test_exp.png">
+<img src="image/test_exp.png">
 
 * Kemudian Klik Run 
 
-<img src="images/unit_test.png">
+<img src="image/unit_test.png">
 
 * Dan perhatikan ada 4 test case, jika berhasil maka semuanya akan muncul status passes
 
