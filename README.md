@@ -7,12 +7,19 @@
 ### Framework, Library dan Database
 *MoviesRESTFull dibangun dengan ASP.NET Core Web API dengan Framework .NET 6.0 dan MySQL*
 
+Ada 2 Project dalam pembuatan RESTFull ini :
+* MovieRESTFull
+* UnitTestMovie
+
+<img src="images/sln_exp.png">
+
 Beberapa library yang digunakan, diantaranya :
 * Microsoft.AspNet.WebApi.Core
 * Microsoft.EntityFrameworkCore.Design
 * Microsoft.EntityFrameworkCore.Tools
 * MySql.EntityFrameworkCore
 * Swashbuckle.AspNetCore
+* Moq
 
 Versi Database : MySQL versi 5.7.36
 
@@ -27,6 +34,8 @@ Versi Database : MySQL versi 5.7.36
 | image       | varchar     | 50     |         |
 | created_at  | datetime    |        |         |
 | updated_at  | datetime    |        |         |
+
+**unit test dalam project ini menggunakan xUnit**
 
 # Memulai
 ## Requirement/Kebutuhan
@@ -56,29 +65,40 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 <img src="images/index.jpeg">
 
 ## Get
-`api/Movie/GetMovies`
+`api/Movie/movielist`
 
 <img src="images/get.jpeg">
 
 ## Get by ID
-`api/Movie/GetMovieById`
+`api/Movie/getmoviebyid`
 
 <img src="images/getbyid.jpeg">
 
 ## Post
-`api/Movie/InsertMovie`
+`api/Movie/addmovie`
 
 <img src="images/post.jpeg">
 
 ## Put
-`api/Movie/UpdateMovie`
+`api/Movie/updatemovie`
 
 <img src="images/put.jpeg">
 
 ## Delete
-`api/Movie/DeleteMovie/{Id}`
+`api/Movie/deletemovie/{Id}`
 
 <img src="images/delete.jpeg">
+
+# Cara menggunakan Unit Test dalam Projek ini
+* Buka Test Explorer
+
+<img src="images/test_exp.png">
+
+* Kemudian Klik Run 
+
+<img src="images/unit_test.png">
+
+* Dan perhatikan ada 4 test case, jika berhasil maka semuanya akan muncul status passes
 
 # Cara Berkontribusi
 Untuk bisa berkontribusi dalam mengembangkan aplikasi ini, silahkan kontak developer terlebih dahulu.
