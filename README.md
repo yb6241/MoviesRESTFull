@@ -9,7 +9,7 @@
 
 Ada 2 Project dalam pembuatan RESTFull ini :
 * MovieRESTFull
-* UnitTestMovie
+* UnitTestMovie (di dalam zip file)
 
 <img src="image/sln_exp.png">
 
@@ -90,6 +90,7 @@ Untuk dapat menggunakan RESTFull API ini adalah sebagai berikut :
 <img src="image/delete.jpeg">
 
 # Cara menggunakan Unit Test dalam Projek ini
+* Unzip file UnitTestMovie
 * Buka Test Explorer
 
 <img src="image/test_exp.png">
