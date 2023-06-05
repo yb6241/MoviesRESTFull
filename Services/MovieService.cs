@@ -32,6 +32,19 @@ namespace MoviesRESTFull.Services
                 throw ex;
             }
         }
+
+        public Movie GetMovieByTitle(string title)
+        {
+            try
+            {
+                return _dbContext.Movies.Where(x => x.title.Contains(title)).FirstOrDefault();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public Movie AddMovie(Movie movie)
         {
             try

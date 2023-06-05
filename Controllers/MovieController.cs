@@ -28,6 +28,12 @@ namespace MoviesRESTFull.Controllers
             return movieService.GetMovieById(Id);
         }
 
+        [HttpGet("getmoviebytitle")]
+        public Movie GetMovieByTitle(string title)
+        {
+            return movieService.GetMovieByTitle(title);
+        }
+
         [HttpPost("addmovie")]
         public Movie AddMovie(Movie movie)
         {

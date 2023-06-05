@@ -9,5 +9,6 @@ namespace MoviesRESTFull.Services
         public Movie AddMovie(Movie movie);
         public Movie UpdateMovie(Movie movie);
         public bool DeleteMovie(int Id);
+        public Movie GetMovieByTitle(string title);
     }
 }
